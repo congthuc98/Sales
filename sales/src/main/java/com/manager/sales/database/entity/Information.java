@@ -12,7 +12,7 @@ import java.time.Instant;
  *
  * @author thucnc
  * @date 2023/04/18
- * */
+ */
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Data

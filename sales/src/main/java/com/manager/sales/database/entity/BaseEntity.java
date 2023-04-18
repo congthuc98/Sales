@@ -10,11 +10,11 @@ import java.sql.Date;
 import java.time.Instant;
 
 /**
- * private static final long serialVersionUID = -3398400026267104175L;
+ * Common field for entity
  *
  * @author thucnc
  * @date 2023/04/18
- * */
+ */
 @Data
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass

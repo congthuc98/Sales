@@ -10,7 +10,7 @@ import java.io.Serializable;
  *
  * @author thucnc
  * @date 2023/04/18
- * */
+ */
 @Entity
 @Table(name = "user")
 @Data
@@ -19,8 +19,8 @@ public class User extends BaseEntity implements Serializable {
     private static final long serialVersionUID = 1400999034554607088L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
 
     @Column(name = "username", nullable = false)
